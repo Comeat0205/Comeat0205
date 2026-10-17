@@ -1,5 +1,3 @@
-
-
 # Hi there 👋
 <!--
 **Comeat0205/Comeat0205** is a ✨_special_✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -16,4 +14,5 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
+![GitHub Snake](https://raw.githubusercontent.com/Comeat0205/Comeat0205/output/github-snake.svg)
 Thanks for visiting my profile! Have a great day! 😊
