@@ -15,4 +15,5 @@ Here are some ideas to get you started:
 -->
 
 ![GitHub Snake](https://raw.githubusercontent.com/Comeat0205/Comeat0205/output/github-snake.svg)
+![GitHub Snake](https://raw.githubusercontent.com/Comeat0205/Comeat0205/output/github-snake-dark.svg)
 Thanks for visiting my profile! Have a great day! 😊
