@@ -1,0 +1,33 @@
+name: Generate Snake Animation
+on:
+  # 每天UTC零点自动运行，更新贪吃蛇地图
+  schedule:
+    - cron: "0 0 * * *"
+  # 允许你手动点按钮触发更新（推荐！）
+  workflow_dispatch:
+  # 当main分支有push提交时，也会执行一次
+  push:
+    branches: [ main ]
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Generate contribution snake svg
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          # 🎨 自定义颜色：snake颜色改成紫色（就是截图里面紫色蛇头效果！）
+          color_snake: '#9900cc'
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+      - name: Push generated SVG to repo
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
