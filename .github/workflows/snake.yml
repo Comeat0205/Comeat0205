@@ -3,7 +3,7 @@ on:
   # 每天UTC零点自动运行，更新贪吃蛇地图
   schedule:
     - cron: "0 0 * * *"
-  # 允许你手动点按钮触发更新（推荐！）
+  # 允许手动点按钮触发更新
   workflow_dispatch:
   # 当main分支有push提交时，也会执行一次
   push:
@@ -20,7 +20,7 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          # 🎨 自定义颜色：snake颜色改成紫色（就是截图里面紫色蛇头效果！）
+          # 🎨 自定义颜色：snake颜色改成紫色
           color_snake: '#9900cc'
           outputs: |
             dist/github-snake.svg
