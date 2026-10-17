@@ -1,4 +1,8 @@
 # Hi there 👋 I'm Comeat0205
+
+I'm Comeat0205, a student studying software engineering.
+
+- 📫 How to reach me: 3329445208@qq.com
 <!--
 **Comeat0205/Comeat0205** is a ✨_special_✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
