@@ -1,8 +1,7 @@
-# Hi there 👋 I'm Comeat0205
+<h1 align="center">Hi there 👋 I'm Comeat0205</h1>
 
 - 🔭 I’m currently studying Software Engineering at the School of Computer Science and Technology, Tongji University.
 - 📫 How to reach me: 3329445208@qq.com
-
 <!--
 **Comeat0205/Comeat0205** is a ✨_special_✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -17,10 +16,9 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Comeat0205/Comeat0205/output/github-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Comeat0205/Comeat0205/output/github-snake.svg">
   <img alt="GitHub Snake" src="https://raw.githubusercontent.com/Comeat0205/Comeat0205/output/github-snake.svg">
 </picture>
-Thanks for visiting my profile! Have a great day! 😊
+<p align="center">Thanks for visiting my profile! Have a great day! 😊</p>
